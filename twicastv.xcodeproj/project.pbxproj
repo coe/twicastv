@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7B276F1E65C60D0076100A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B276E1E65C60D0076100A /* AppDelegate.swift */; };
+		CE7B27711E65C60D0076100A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B27701E65C60D0076100A /* ViewController.swift */; };
+		CE7B27741E65C60D0076100A /* twicastv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE7B27721E65C60D0076100A /* twicastv.xcdatamodeld */; };
+		CE7B27771E65C60D0076100A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7B27751E65C60D0076100A /* Main.storyboard */; };
+		CE7B27791E65C60D0076100A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7B27781E65C60D0076100A /* Assets.xcassets */; };
+		CE7B27841E65C60E0076100A /* twicastvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B27831E65C60E0076100A /* twicastvTests.swift */; };
+		CE7B278F1E65C60E0076100A /* twicastvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B278E1E65C60E0076100A /* twicastvUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE7B27801E65C60E0076100A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7B27631E65C60D0076100A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7B276A1E65C60D0076100A;
+			remoteInfo = twicastv;
+		};
+		CE7B278B1E65C60E0076100A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7B27631E65C60D0076100A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7B276A1E65C60D0076100A;
+			remoteInfo = twicastv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE7B276B1E65C60D0076100A /* twicastv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twicastv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7B276E1E65C60D0076100A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE7B27701E65C60D0076100A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE7B27731E65C60D0076100A /* twicastv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = twicastv.xcdatamodel; sourceTree = "<group>"; };
+		CE7B27761E65C60D0076100A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE7B27781E65C60D0076100A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE7B277A1E65C60D0076100A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7B277F1E65C60E0076100A /* twicastvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twicastvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7B27831E65C60E0076100A /* twicastvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twicastvTests.swift; sourceTree = "<group>"; };
+		CE7B27851E65C60E0076100A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7B278A1E65C60E0076100A /* twicastvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twicastvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7B278E1E65C60E0076100A /* twicastvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twicastvUITests.swift; sourceTree = "<group>"; };
+		CE7B27901E65C60E0076100A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7B27681E65C60D0076100A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7B277C1E65C60E0076100A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7B27871E65C60E0076100A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7B27621E65C60D0076100A = {
+			isa = PBXGroup;
+			children = (
+				CE7B276D1E65C60D0076100A /* twicastv */,
+				CE7B27821E65C60E0076100A /* twicastvTests */,
+				CE7B278D1E65C60E0076100A /* twicastvUITests */,
+				CE7B276C1E65C60D0076100A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7B276C1E65C60D0076100A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B276B1E65C60D0076100A /* twicastv.app */,
+				CE7B277F1E65C60E0076100A /* twicastvTests.xctest */,
+				CE7B278A1E65C60E0076100A /* twicastvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7B276D1E65C60D0076100A /* twicastv */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B276E1E65C60D0076100A /* AppDelegate.swift */,
+				CE7B27701E65C60D0076100A /* ViewController.swift */,
+				CE7B27751E65C60D0076100A /* Main.storyboard */,
+				CE7B27781E65C60D0076100A /* Assets.xcassets */,
+				CE7B277A1E65C60D0076100A /* Info.plist */,
+				CE7B27721E65C60D0076100A /* twicastv.xcdatamodeld */,
+			);
+			path = twicastv;
+			sourceTree = "<group>";
+		};
+		CE7B27821E65C60E0076100A /* twicastvTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B27831E65C60E0076100A /* twicastvTests.swift */,
+				CE7B27851E65C60E0076100A /* Info.plist */,
+			);
+			path = twicastvTests;
+			sourceTree = "<group>";
+		};
+		CE7B278D1E65C60E0076100A /* twicastvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B278E1E65C60E0076100A /* twicastvUITests.swift */,
+				CE7B27901E65C60E0076100A /* Info.plist */,
+			);
+			path = twicastvUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7B276A1E65C60D0076100A /* twicastv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7B27931E65C60E0076100A /* Build configuration list for PBXNativeTarget "twicastv" */;
+			buildPhases = (
+				CE7B27671E65C60D0076100A /* Sources */,
+				CE7B27681E65C60D0076100A /* Frameworks */,
+				CE7B27691E65C60D0076100A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twicastv;
+			productName = twicastv;
+			productReference = CE7B276B1E65C60D0076100A /* twicastv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7B277E1E65C60E0076100A /* twicastvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7B27961E65C60E0076100A /* Build configuration list for PBXNativeTarget "twicastvTests" */;
+			buildPhases = (
+				CE7B277B1E65C60E0076100A /* Sources */,
+				CE7B277C1E65C60E0076100A /* Frameworks */,
+				CE7B277D1E65C60E0076100A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7B27811E65C60E0076100A /* PBXTargetDependency */,
+			);
+			name = twicastvTests;
+			productName = twicastvTests;
+			productReference = CE7B277F1E65C60E0076100A /* twicastvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE7B27891E65C60E0076100A /* twicastvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7B27991E65C60E0076100A /* Build configuration list for PBXNativeTarget "twicastvUITests" */;
+			buildPhases = (
+				CE7B27861E65C60E0076100A /* Sources */,
+				CE7B27871E65C60E0076100A /* Frameworks */,
+				CE7B27881E65C60E0076100A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7B278C1E65C60E0076100A /* PBXTargetDependency */,
+			);
+			name = twicastvUITests;
+			productName = twicastvUITests;
+			productReference = CE7B278A1E65C60E0076100A /* twicastvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7B27631E65C60D0076100A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "tsuyoshi hyuga";
+				TargetAttributes = {
+					CE7B276A1E65C60D0076100A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J96677DK6N;
+						ProvisioningStyle = Automatic;
+					};
+					CE7B277E1E65C60E0076100A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J96677DK6N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE7B276A1E65C60D0076100A;
+					};
+					CE7B27891E65C60E0076100A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J96677DK6N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE7B276A1E65C60D0076100A;
+					};
+				};
+			};
+			buildConfigurationList = CE7B27661E65C60D0076100A /* Build configuration list for PBXProject "twicastv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7B27621E65C60D0076100A;
+			productRefGroup = CE7B276C1E65C60D0076100A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7B276A1E65C60D0076100A /* twicastv */,
+				CE7B277E1E65C60E0076100A /* twicastvTests */,
+				CE7B27891E65C60E0076100A /* twicastvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7B27691E65C60D0076100A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7B27791E65C60D0076100A /* Assets.xcassets in Resources */,
+				CE7B27771E65C60D0076100A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7B277D1E65C60E0076100A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7B27881E65C60E0076100A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7B27671E65C60D0076100A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7B27711E65C60D0076100A /* ViewController.swift in Sources */,
+				CE7B27741E65C60D0076100A /* twicastv.xcdatamodeld in Sources */,
+				CE7B276F1E65C60D0076100A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7B277B1E65C60E0076100A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7B27841E65C60E0076100A /* twicastvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7B27861E65C60E0076100A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7B278F1E65C60E0076100A /* twicastvUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE7B27811E65C60E0076100A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7B276A1E65C60D0076100A /* twicastv */;
+			targetProxy = CE7B27801E65C60E0076100A /* PBXContainerItemProxy */;
+		};
+		CE7B278C1E65C60E0076100A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7B276A1E65C60D0076100A /* twicastv */;
+			targetProxy = CE7B278B1E65C60E0076100A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE7B27751E65C60D0076100A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7B27761E65C60D0076100A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE7B27911E65C60E0076100A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		CE7B27921E65C60E0076100A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7B27941E65C60E0076100A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = twicastv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.coe.twicastv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE7B27951E65C60E0076100A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = twicastv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.coe.twicastv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE7B27971E65C60E0076100A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = twicastvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.coe.twicastvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twicastv.app/twicastv";
+			};
+			name = Debug;
+		};
+		CE7B27981E65C60E0076100A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = twicastvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.coe.twicastvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twicastv.app/twicastv";
+			};
+			name = Release;
+		};
+		CE7B279A1E65C60E0076100A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = twicastvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.coe.twicastvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = twicastv;
+			};
+			name = Debug;
+		};
+		CE7B279B1E65C60E0076100A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J96677DK6N;
+				INFOPLIST_FILE = twicastvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.coe.twicastvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = twicastv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7B27661E65C60D0076100A /* Build configuration list for PBXProject "twicastv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7B27911E65C60E0076100A /* Debug */,
+				CE7B27921E65C60E0076100A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7B27931E65C60E0076100A /* Build configuration list for PBXNativeTarget "twicastv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7B27941E65C60E0076100A /* Debug */,
+				CE7B27951E65C60E0076100A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE7B27961E65C60E0076100A /* Build configuration list for PBXNativeTarget "twicastvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7B27971E65C60E0076100A /* Debug */,
+				CE7B27981E65C60E0076100A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE7B27991E65C60E0076100A /* Build configuration list for PBXNativeTarget "twicastvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7B279A1E65C60E0076100A /* Debug */,
+				CE7B279B1E65C60E0076100A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE7B27721E65C60D0076100A /* twicastv.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE7B27731E65C60D0076100A /* twicastv.xcdatamodel */,
+			);
+			currentVersion = CE7B27731E65C60D0076100A /* twicastv.xcdatamodel */;
+			path = twicastv.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE7B27631E65C60D0076100A /* Project object */;
+}

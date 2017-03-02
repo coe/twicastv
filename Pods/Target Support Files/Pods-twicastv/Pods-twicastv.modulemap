@@ -1,0 +1,6 @@
+framework module Pods_twicastv {
+  umbrella header "Pods-twicastv-umbrella.h"
+
+  export *
+  module * { export * }
+}

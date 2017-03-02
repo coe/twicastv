@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14F34E309320FF9D6FC136DF /* Pods_twicastv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD858DEAB252D23A7F368857 /* Pods_twicastv.framework */; };
+		6EA26B20D81739D01FF9C8E4 /* Pods_twicastvUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E6757D4842B83B1A9B15B0 /* Pods_twicastvUITests.framework */; };
+		BC331B0255CB388AC4A82AA8 /* Pods_twicastvTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A517FC4FF4010C07DBE87B /* Pods_twicastvTests.framework */; };
 		CE7B276F1E65C60D0076100A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B276E1E65C60D0076100A /* AppDelegate.swift */; };
 		CE7B27711E65C60D0076100A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B27701E65C60D0076100A /* ViewController.swift */; };
 		CE7B27741E65C60D0076100A /* twicastv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE7B27721E65C60D0076100A /* twicastv.xcdatamodeld */; };
@@ -14,6 +17,11 @@
 		CE7B27791E65C60D0076100A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7B27781E65C60D0076100A /* Assets.xcassets */; };
 		CE7B27841E65C60E0076100A /* twicastvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B27831E65C60E0076100A /* twicastvTests.swift */; };
 		CE7B278F1E65C60E0076100A /* twicastvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B278E1E65C60E0076100A /* twicastvUITests.swift */; };
+		CEA2805D1E66FBCE001E24E8 /* TwicasApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2805C1E66FBCE001E24E8 /* TwicasApi.swift */; };
+		CEA2805F1E67030E001E24E8 /* MovieCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2805E1E67030E001E24E8 /* MovieCollectionViewController.swift */; };
+		CEA280611E670351001E24E8 /* MovieListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA280601E670351001E24E8 /* MovieListProtocol.swift */; };
+		CEA280631E670377001E24E8 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA280621E670377001E24E8 /* MovieCollectionViewCell.swift */; };
+		CEA280651E6703E4001E24E8 /* UIViewController+MakePlayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA280641E6703E4001E24E8 /* UIViewController+MakePlayerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04D7963F255F9C582C4DC9F9 /* Pods-twicastvUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twicastvUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-twicastvUITests/Pods-twicastvUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3602C644E00B115D3C8B25DC /* Pods-twicastv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twicastv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-twicastv/Pods-twicastv.debug.xcconfig"; sourceTree = "<group>"; };
+		80054A2D29A90AA821BEC6CA /* Pods-twicastvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twicastvTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-twicastvTests/Pods-twicastvTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A728FB88ED91D9F5D35CF284 /* Pods-twicastvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twicastvTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-twicastvTests/Pods-twicastvTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9E5A8A4E375500B74E145C7 /* Pods-twicastv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twicastv.release.xcconfig"; path = "Pods/Target Support Files/Pods-twicastv/Pods-twicastv.release.xcconfig"; sourceTree = "<group>"; };
+		C3E6757D4842B83B1A9B15B0 /* Pods_twicastvUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twicastvUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD858DEAB252D23A7F368857 /* Pods_twicastv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twicastv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7B276B1E65C60D0076100A /* twicastv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twicastv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7B276E1E65C60D0076100A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE7B27701E65C60D0076100A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,13 @@
 		CE7B278A1E65C60E0076100A /* twicastvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twicastvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7B278E1E65C60E0076100A /* twicastvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twicastvUITests.swift; sourceTree = "<group>"; };
 		CE7B27901E65C60E0076100A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA2805C1E66FBCE001E24E8 /* TwicasApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwicasApi.swift; sourceTree = "<group>"; };
+		CEA2805E1E67030E001E24E8 /* MovieCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewController.swift; sourceTree = "<group>"; };
+		CEA280601E670351001E24E8 /* MovieListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListProtocol.swift; sourceTree = "<group>"; };
+		CEA280621E670377001E24E8 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEA280641E6703E4001E24E8 /* UIViewController+MakePlayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+MakePlayerExtension.swift"; sourceTree = "<group>"; };
+		D2A517FC4FF4010C07DBE87B /* Pods_twicastvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_twicastvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E7481C97559F581AA8892F /* Pods-twicastvUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twicastvUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-twicastvUITests/Pods-twicastvUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F34E309320FF9D6FC136DF /* Pods_twicastv.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC331B0255CB388AC4A82AA8 /* Pods_twicastvTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA26B20D81739D01FF9C8E4 /* Pods_twicastvUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5463DC66423B1B8C4C5C3807 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3602C644E00B115D3C8B25DC /* Pods-twicastv.debug.xcconfig */,
+				B9E5A8A4E375500B74E145C7 /* Pods-twicastv.release.xcconfig */,
+				80054A2D29A90AA821BEC6CA /* Pods-twicastvTests.debug.xcconfig */,
+				A728FB88ED91D9F5D35CF284 /* Pods-twicastvTests.release.xcconfig */,
+				04D7963F255F9C582C4DC9F9 /* Pods-twicastvUITests.debug.xcconfig */,
+				F9E7481C97559F581AA8892F /* Pods-twicastvUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		998404F2E5A0241A09A943C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD858DEAB252D23A7F368857 /* Pods_twicastv.framework */,
+				D2A517FC4FF4010C07DBE87B /* Pods_twicastvTests.framework */,
+				C3E6757D4842B83B1A9B15B0 /* Pods_twicastvUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE7B27621E65C60D0076100A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				CE7B27821E65C60E0076100A /* twicastvTests */,
 				CE7B278D1E65C60E0076100A /* twicastvUITests */,
 				CE7B276C1E65C60D0076100A /* Products */,
+				5463DC66423B1B8C4C5C3807 /* Pods */,
+				998404F2E5A0241A09A943C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +147,11 @@
 		CE7B276D1E65C60D0076100A /* twicastv */ = {
 			isa = PBXGroup;
 			children = (
+				CEA280641E6703E4001E24E8 /* UIViewController+MakePlayerExtension.swift */,
+				CEA280601E670351001E24E8 /* MovieListProtocol.swift */,
+				CEA2805E1E67030E001E24E8 /* MovieCollectionViewController.swift */,
+				CEA280621E670377001E24E8 /* MovieCollectionViewCell.swift */,
+				CEA2805C1E66FBCE001E24E8 /* TwicasApi.swift */,
 				CE7B276E1E65C60D0076100A /* AppDelegate.swift */,
 				CE7B27701E65C60D0076100A /* ViewController.swift */,
 				CE7B27751E65C60D0076100A /* Main.storyboard */,
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7B27931E65C60E0076100A /* Build configuration list for PBXNativeTarget "twicastv" */;
 			buildPhases = (
+				EA0168E9967D41841B9C9240 /* [CP] Check Pods Manifest.lock */,
 				CE7B27671E65C60D0076100A /* Sources */,
 				CE7B27681E65C60D0076100A /* Frameworks */,
 				CE7B27691E65C60D0076100A /* Resources */,
+				3CDDCC5EEB7E3851285AEF6C /* [CP] Embed Pods Frameworks */,
+				041DAD0EE59A9BA9F70077C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7B27961E65C60E0076100A /* Build configuration list for PBXNativeTarget "twicastvTests" */;
 			buildPhases = (
+				F8E2988A2CF023B38103B772 /* [CP] Check Pods Manifest.lock */,
 				CE7B277B1E65C60E0076100A /* Sources */,
 				CE7B277C1E65C60E0076100A /* Frameworks */,
 				CE7B277D1E65C60E0076100A /* Resources */,
+				43123BA34DCFD0F6F16FAEB1 /* [CP] Embed Pods Frameworks */,
+				58745A69942F077BEDD6F33A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7B27991E65C60E0076100A /* Build configuration list for PBXNativeTarget "twicastvUITests" */;
 			buildPhases = (
+				D2F3C24E50D89B122F6088AB /* [CP] Check Pods Manifest.lock */,
 				CE7B27861E65C60E0076100A /* Sources */,
 				CE7B27871E65C60E0076100A /* Frameworks */,
 				CE7B27881E65C60E0076100A /* Resources */,
+				32F89FEE444C30E47A9EBAD7 /* [CP] Embed Pods Frameworks */,
+				EF7C93F8D8E7C7D5DE23D070 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +320,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		041DAD0EE59A9BA9F70077C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-twicastv/Pods-twicastv-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32F89FEE444C30E47A9EBAD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-twicastvUITests/Pods-twicastvUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CDDCC5EEB7E3851285AEF6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-twicastv/Pods-twicastv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43123BA34DCFD0F6F16FAEB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-twicastvTests/Pods-twicastvTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58745A69942F077BEDD6F33A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-twicastvTests/Pods-twicastvTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F3C24E50D89B122F6088AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0168E9967D41841B9C9240 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7C93F8D8E7C7D5DE23D070 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-twicastvUITests/Pods-twicastvUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E2988A2CF023B38103B772 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE7B27671E65C60D0076100A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,7 +465,12 @@
 			files = (
 				CE7B27711E65C60D0076100A /* ViewController.swift in Sources */,
 				CE7B27741E65C60D0076100A /* twicastv.xcdatamodeld in Sources */,
+				CEA2805F1E67030E001E24E8 /* MovieCollectionViewController.swift in Sources */,
 				CE7B276F1E65C60D0076100A /* AppDelegate.swift in Sources */,
+				CEA280651E6703E4001E24E8 /* UIViewController+MakePlayerExtension.swift in Sources */,
+				CEA280631E670377001E24E8 /* MovieCollectionViewCell.swift in Sources */,
+				CEA280611E670351001E24E8 /* MovieListProtocol.swift in Sources */,
+				CEA2805D1E66FBCE001E24E8 /* TwicasApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +610,7 @@
 		};
 		CE7B27941E65C60E0076100A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3602C644E00B115D3C8B25DC /* Pods-twicastv.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -417,6 +625,7 @@
 		};
 		CE7B27951E65C60E0076100A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E5A8A4E375500B74E145C7 /* Pods-twicastv.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -431,6 +640,7 @@
 		};
 		CE7B27971E65C60E0076100A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80054A2D29A90AA821BEC6CA /* Pods-twicastvTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +656,7 @@
 		};
 		CE7B27981E65C60E0076100A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A728FB88ED91D9F5D35CF284 /* Pods-twicastvTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -461,6 +672,7 @@
 		};
 		CE7B279A1E65C60E0076100A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04D7963F255F9C582C4DC9F9 /* Pods-twicastvUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J96677DK6N;
@@ -475,6 +687,7 @@
 		};
 		CE7B279B1E65C60E0076100A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E7481C97559F581AA8892F /* Pods-twicastvUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = J96677DK6N;
@@ -506,6 +719,7 @@
 				CE7B27951E65C60E0076100A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE7B27961E65C60E0076100A /* Build configuration list for PBXNativeTarget "twicastvTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +728,7 @@
 				CE7B27981E65C60E0076100A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE7B27991E65C60E0076100A /* Build configuration list for PBXNativeTarget "twicastvUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +737,7 @@
 				CE7B279B1E65C60E0076100A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

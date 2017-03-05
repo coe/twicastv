@@ -114,34 +114,4 @@ class MovieCollectionViewController: UICollectionViewController,AVPlayerViewCont
         }
     }
     
-    // MARK: Convenience
-    
-    func timedMetaDataGroupWithTitle(_ title: String, startTime: TimeInterval, endTime: TimeInterval) -> AVTimedMetadataGroup {
-        // Create an `AVMetadataItem` for the title.
-        let titleItem = AVMutableMetadataItem()
-        titleItem.identifier = AVMetadataCommonIdentifierTitle
-        titleItem.value = title as NSString
-        titleItem.extendedLanguageTag = "und"
-        
-        // Create a `CMTimeRange` from the supplied information.
-        let range = timeRange(from: startTime, to: endTime)
-        
-        return AVTimedMetadataGroup(items: [titleItem], timeRange: range)
-    }
-    
-    func timeRange(from startTime: TimeInterval, to endTime: TimeInterval) -> CMTimeRange {
-        let cmStartTime = CMTimeMakeWithSeconds(Float64(startTime), 100)
-        let cmEndTime = CMTimeMakeWithSeconds(Float64(endTime), 100)
-        let timeRange = CMTimeRangeFromTimeToTime(cmStartTime, cmEndTime)
-        
-        return timeRange
-    }
-    
-    func timeRange(withStartTime startTime: TimeInterval, duration: TimeInterval) -> CMTimeRange {
-        let cmStartTime = CMTimeMakeWithSeconds(Float64(startTime), 100)
-        let cmDuration = CMTimeMakeWithSeconds(Float64(duration), 100)
-        let timeRange = CMTimeRange(start: cmStartTime, duration: cmDuration)
-        
-        return timeRange
-    }
 }

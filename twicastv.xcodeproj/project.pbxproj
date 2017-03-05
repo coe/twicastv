@@ -17,6 +17,7 @@
 		CE7B27791E65C60D0076100A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7B27781E65C60D0076100A /* Assets.xcassets */; };
 		CE7B27841E65C60E0076100A /* twicastvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B27831E65C60E0076100A /* twicastvTests.swift */; };
 		CE7B278F1E65C60E0076100A /* twicastvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B278E1E65C60E0076100A /* twicastvUITests.swift */; };
+		CE9BD68D1E6C22B3005824B2 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE9BD68C1E6C22B3005824B2 /* License.txt */; };
 		CEA2805D1E66FBCE001E24E8 /* TwicasApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2805C1E66FBCE001E24E8 /* TwicasApi.swift */; };
 		CEA2805F1E67030E001E24E8 /* MovieCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2805E1E67030E001E24E8 /* MovieCollectionViewController.swift */; };
 		CEA280611E670351001E24E8 /* MovieListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA280601E670351001E24E8 /* MovieListProtocol.swift */; };
@@ -62,6 +63,7 @@
 		CE7B278A1E65C60E0076100A /* twicastvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twicastvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7B278E1E65C60E0076100A /* twicastvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twicastvUITests.swift; sourceTree = "<group>"; };
 		CE7B27901E65C60E0076100A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9BD68C1E6C22B3005824B2 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		CEA2805C1E66FBCE001E24E8 /* TwicasApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwicasApi.swift; sourceTree = "<group>"; };
 		CEA2805E1E67030E001E24E8 /* MovieCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewController.swift; sourceTree = "<group>"; };
 		CEA280601E670351001E24E8 /* MovieListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListProtocol.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				CE7B27781E65C60D0076100A /* Assets.xcassets */,
 				CE7B277A1E65C60D0076100A /* Info.plist */,
 				CE7B27721E65C60D0076100A /* twicastv.xcdatamodeld */,
+				CE9BD68C1E6C22B3005824B2 /* License.txt */,
 			);
 			path = twicastv;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			files = (
 				CE7B27791E65C60D0076100A /* Assets.xcassets in Resources */,
 				CE7B27771E65C60D0076100A /* Main.storyboard in Resources */,
+				CE9BD68D1E6C22B3005824B2 /* License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

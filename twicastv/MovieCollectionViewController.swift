@@ -1,6 +1,6 @@
 //
 //  MovieCollectionViewController.swift
-//  watchube
+//  twicastv
 //
 //  Created by COFFEE on 2017/01/12.
 //  Copyright © 2017年 tsuyoshi hyuga. All rights reserved.

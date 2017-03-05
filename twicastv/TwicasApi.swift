@@ -1,6 +1,6 @@
 //
 //  TwicasApi.swift
-//  watchube
+//  twicastv
 //
 //  Created by COFFEE on 2016/12/31.
 //  Copyright © 2016年 tsuyoshi hyuga. All rights reserved.
